@@ -75,13 +75,13 @@
     "selector": "a[href^='mailto']",
     "text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
   }, {
-    "selector": ".post",
+    "selector": "a[href^='/topics/']",
     "text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
   }, {
     "selector": "a[href^='/categories/']",
     "text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
   }, {
-    "selector": "a[href^='/post/']",
+    "selector": ".post",
     "text": ["要看看 <span>{text}</span> 这篇文章吗？"]
   }, {
     "selector": "a[rel='contents']",
