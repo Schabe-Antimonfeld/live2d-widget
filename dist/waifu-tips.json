@@ -81,8 +81,8 @@
     "selector": "a[href^='/categories/']",
     "text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
   }, {
-    "selector": ".post",
-    "text": ["要看看这篇文章吗？", "点击阅读全文哦"]
+    "selector": "a[href^='/post/']",
+    "text": ["要看看这篇文章吗？", "点击阅读全文哦", "点它可以查看完整文章内容呢！", "这是Schabe精心整理的文章呢"]
   }, {
     "selector": "a[itemprop='discussionUrl']",
     "text": ["要去看看评论吗？"]
