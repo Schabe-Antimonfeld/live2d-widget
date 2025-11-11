@@ -66,7 +66,7 @@
     "selector": ".fancybox img, img.medium-zoom-image",
     "text": ["点击图片可以放大呢！"]
   }, {
-    "selector": ".btn .btn-sm .btn-outline-primary .copyButton",
+    "selector": ".copyButton",
     "text": ["代码可以直接点击复制哟。"]
   }, {
     "selector": ".highlight .table-container, .gist",
@@ -81,8 +81,8 @@
     "selector": "a[href^='/categories/']",
     "text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
   }, {
-    "selector": ".card-title .post",
-    "text": ["要看看这篇文章吗？"]
+    "selector": ".card-title.post",
+    "text": ["要看看 <span>{text}</span> 这篇文章吗？"]
   }, {
     "selector": "a[itemprop='discussionUrl']",
     "text": ["要去看看评论吗？"]
